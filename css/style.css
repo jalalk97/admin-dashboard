@@ -275,7 +275,7 @@ body {
   align-items: center;
   justify-content: space-between;
   column-gap: 7rem;
-  padding: 2rem 5.625rem;
+  padding: 0 5.625rem 2rem 5.625rem;
 }
 
 .header > .search-bar {
@@ -378,7 +378,6 @@ body {
 
 .announcements .card {
   padding: 4rem;
-  /* padding: 4rem 4rem auto 4rem; */
 }
 
 .announcement-item:not(:last-child) {
@@ -388,6 +387,10 @@ body {
 
 .announcement-item:not(:first-child) {
   padding-top: 2.5rem;
+}
+
+.announcement-item h3 {
+  margin-bottom: 0.5rem;
 }
 
 .trending .card {
