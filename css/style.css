@@ -232,6 +232,12 @@ body {
   align-self: stretch;
   align-content: start;
   row-gap: 1.5rem;
+  position: fixed;
+  top: 0;
+  left: 0;
+  overflow-x: hidden;
+  width: 18.9375rem;
+  height: 100%;
 }
 
 .sidebar a {
@@ -281,6 +287,13 @@ body {
   box-shadow:
     rgba(0, 0, 0, 0.1) 0px 20px 25px -5px,
     rgba(0, 0, 0, 0.04) 0px 10px 10px -5px;
+
+  position: fixed;
+  top: 0;
+  left: 18.9375rem;
+  height: 11.125rem;
+  width: calc(100% - 18.9375rem);
+  overflow-x: scroll;
 }
 
 .header > .search-bar {
